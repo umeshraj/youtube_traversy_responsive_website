@@ -131,6 +131,25 @@ img {
   margin: 10px;
 }
 
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+
 .flex {
   display: flex;
   justify-content: center;

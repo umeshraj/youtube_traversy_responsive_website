@@ -198,6 +198,14 @@ img {
   justify-self: flex-end;
 }
 
+.features-main > i {
+  margin-right: 20px;
+}
+
+.features-main .grid {
+  padding: 30px;
+}
+
 /* Footer */
 .footer .social a {
   margin: 0 10px;
